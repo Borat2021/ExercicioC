@@ -1,0 +1,92 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>3.5 EXERCÍCIOS
+Faça o código dos exercícios do capítulo dentro de botões no formulário do projeto inicial, cada exercício
+deve ficar na ação de um botão diferente.
+
+1. Crie 3 variáveis com as idades dos seus melhores amigos e/ou familiares.
+Em seguida, pegue essas 3 idades e calcule a média delas. Exiba o resultado
+em um MessageBox.
+
+</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>3. Execute o trecho de código a seguir. O que acontece com ele?
+double pi = 3.14;
+int piQuebrado = (int)pi;
+MessageBox.Show("piQuebrado = " + piQuebrado);
+Repare o (int) . Estamos "forçando" a conversão do double para um inteiro.
+Qual o valor de piQuebrado nesse caso?</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>4. (Opcional) No colegial, aprendemos a resolver equações de segundo grau usando a fórmula de
+Bhaskara. A fórmula é assim:
+delta = b*b - 4*a*c;
+a1 = (-b + raiz(delta)) / (2 * a);
+a2 = (-b - raiz(delta)) / (2 * a);
+Crie um programa com três variáveis inteiras, a, b, c , com quaisquer valores. Depois crie 3
+variáveis double, delta, a1, a2 , com a fórmula anterior.
+Imprima a1 e a2 em um MessageBox.
+Dica: Para calcular raiz quadrada, use Math.Sqrt(variavel) . Não se esqueça que não podemos
+calcular a raiz quadrada de números negativos.
+</value>
+  </data>
+</root>

@@ -1,0 +1,160 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>02 - O QUE É C# E .NET
+
+ 
+
+03 - VARIÁVEIS E TIPOS PRIMITIVOS 
+
+
+
+04 - ESTRUTURAS DE CONTROLE
+
+ 
+
+05 - ESTRUTURAS DE REPETIÇÃO
+
+ 
+
+06 - CLASSES E OBJETOS 
+
+
+
+07 - COMPOSIÇÃO DE CLASSES
+
+
+ 
+08 - ENCAPSULAMENTO E MODIFICADORES DE ACESSO
+
+
+ 
+09 – CONSTRUTORES 
+
+
+
+10 - INTRODUÇÃO AO VISUAL STUDIO COM WINDOWS FORM 
+
+
+
+11 – HERANÇA 
+
+
+
+12 - TRABALHANDO COM ARRAYS 
+
+
+
+13 - ORGANIZANDO AS CONTAS COM O COMBOBOX 
+
+
+
+14 - CADASTRO DE NOVAS CONTAS </value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>15 - CLASSES ABSTRATAS 
+
+
+
+16 – INTERFACES 
+
+
+
+17 - MÉTODOS E ATRIBUTOS ESTÁTICOS 
+
+
+
+18 – EXCEÇÕES 
+
+
+
+19 – NAMESPACES 
+
+
+
+20 - CLASSE OBJECT 
+
+
+
+21 - TRABALHANDO COM LISTAS 
+
+
+
+22 - LIDANDO COM CONJUNTOS 
+
+
+
+23 - LINQ E LAMBDA 
+
+
+
+24 - SYSTEM.IO 
+
+
+
+25 - MANIPULAÇÃO DE STRINGS 
+
+
+
+26 - APÊNDICE — ESTENDENDO COMPORTAMENTOS 
+ATRAVÉS DE MÉTODOS EXTRAS
+</value>
+  </data>
+</root>
