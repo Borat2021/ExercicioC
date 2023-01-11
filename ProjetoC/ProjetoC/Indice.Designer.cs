@@ -109,6 +109,7 @@
             this.exercicio04.Size = new System.Drawing.Size(114, 20);
             this.exercicio04.TabIndex = 1;
             this.exercicio04.Text = "04 EXERCÍCIOS";
+            this.exercicio04.Click += new System.EventHandler(this.exercicio04_Click);
             // 
             // exercicio05
             // 

@@ -72,6 +72,9 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -451,7 +454,7 @@
             // btnCalcularD
             // 
             this.btnCalcularD.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCalcularD.Location = new System.Drawing.Point(382, 756);
+            this.btnCalcularD.Location = new System.Drawing.Point(12, 792);
             this.btnCalcularD.Name = "btnCalcularD";
             this.btnCalcularD.Size = new System.Drawing.Size(69, 36);
             this.btnCalcularD.TabIndex = 17;
@@ -463,7 +466,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label25.Location = new System.Drawing.Point(484, 763);
+            this.label25.Location = new System.Drawing.Point(285, 763);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(33, 25);
             this.label25.TabIndex = 16;
@@ -473,7 +476,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label26.Location = new System.Drawing.Point(535, 763);
+            this.label26.Location = new System.Drawing.Point(285, 788);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(33, 25);
             this.label26.TabIndex = 16;
@@ -483,27 +486,61 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label27.Location = new System.Drawing.Point(484, 740);
+            this.label27.Location = new System.Drawing.Point(250, 739);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(91, 25);
             this.label27.TabIndex = 16;
             this.label27.Text = "Resposta";
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label28.Location = new System.Drawing.Point(250, 763);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(46, 25);
+            this.label28.TabIndex = 18;
+            this.label28.Text = "a1=";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label29.Location = new System.Drawing.Point(250, 788);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(46, 25);
+            this.label29.TabIndex = 18;
+            this.label29.Text = "a2=";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(517, 641);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 41);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Índice";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Exercicio03
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(662, 809);
+            this.ClientSize = new System.Drawing.Size(662, 837);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.label28);
             this.Controls.Add(this.btnCalcularD);
             this.Controls.Add(this.textBoxNumeroA2);
             this.Controls.Add(this.textBoxNumeroA1);
             this.Controls.Add(this.textBoxDelta);
             this.Controls.Add(this.textBoxNumero3);
             this.Controls.Add(this.textBoxNumero2);
-            this.Controls.Add(this.label26);
             this.Controls.Add(this.textNumero1);
             this.Controls.Add(this.label27);
-            this.Controls.Add(this.label25);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -538,6 +575,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Exercicio03";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VARIÁVEIS E TIPOS PRIMITIVOS ";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -589,5 +627,8 @@
         private Label label25;
         private Label label26;
         private Label label27;
+        private Label label28;
+        private Label label29;
+        private Button button1;
     }
 }

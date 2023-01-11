@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,33 +18,18 @@ namespace ProjetoC
         public Exercicio03()
         {   
             InitializeComponent();
-            label6.Visible =true;
-            label7.Visible = true;
-            label8.Visible = true;
-            label9.Visible = false;
-            label10.Visible = false;
-            label11.Visible = false;
+            label6.Visible =true; label7.Visible = true; label8.Visible = true; label9.Visible = false; label10.Visible = false;  label11.Visible = false;
+            label4.Visible=true;  label13.Visible=true;  label14.Visible=true;  label15.Visible=false;  label16.Visible=false;    label17.Visible=false;
+            label25.Visible = false;  label26.Visible = false;  label27.Visible=false;   label28.Visible=false;  label29.Visible=false;
             txtMediaPessoa.Visible=false;
-            label4.Visible=true;
-            label13.Visible=true;
-            label14.Visible=true;
-            label15.Visible=false;
-            label16.Visible=false;
-            label17.Visible=false;
+
 
         }
         int NotaFinalDoJogador = 0;
 
-
-
         private void btnCalcular_Click(object sender, EventArgs e)
-        {   string nomepessoa1;
-            int idadepessoal1=0;
-            string nomepessoa2;
-            int idadepessoal2=0;
-            string nomepessoa3;
-            int idadepessoal3 = 0;   
-                       
+        {   string nomepessoa1, nomepessoa2, nomepessoa3;
+            int idadepessoal1=0, idadepessoal2=0, idadepessoal3 = 0;      
             double media;
 
             nomepessoa1 = textPessoa1.Text;
@@ -55,9 +41,6 @@ namespace ProjetoC
             media = (idadepessoal1 + idadepessoal2 + idadepessoal3) / 3;
             txtMediaPessoa.Text = Convert.ToString(media);
             txtMediaPessoa.Visible= true;
-
-
-
 
             MessageBox.Show("Primeiro nome: " + nomepessoa1+ " sua idade é, "+ idadepessoal1+" anos;"+ "\n Segundo nome: " + nomepessoa2+ 
                 " sua idade é, " + idadepessoal2+ "anos; "+" \n Terceiro nome: " + nomepessoa3+ " sua idade é, " + idadepessoal3+" anos"+ 
@@ -134,7 +117,39 @@ namespace ProjetoC
 
         private void btnCalcularD_Click(object sender, EventArgs e)
         {
+            int a, b, c;
+            double delta, a1, a2;
 
+                a = Convert.ToInt32(textNumero1.Text);
+                b = Convert.ToInt32(textBoxNumero2.Text);
+                c = Convert.ToInt32(textBoxNumero3.Text);
+
+            delta = b * b - 4 * a * c;
+            a1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            a2 = (-b - Math.Sqrt(delta)) / (2 * a);
+            textBoxDelta.Text = Convert.ToString(delta);
+            textBoxNumeroA1.Text = Convert.ToString(a1);
+            textBoxNumeroA2.Text = Convert.ToString(a2);
+            textBoxNumeroA1.Visible= false;
+            textBoxNumeroA2.Visible= false;
+            label23.Visible=false;
+            label24.Visible=false;
+            label25.Text=Convert.ToString(a1);
+            label26.Text=Convert.ToString(a2);
+            label25.Visible = true;
+            label26.Visible = true;
+            label27.Visible = true;
+            label28.Visible = true;
+            label29.Visible = true;
+
+            //int a = 1, b = -5, c = 6;
+            //double delta = 3.5, a1 = 1.5, a2 = 2.3;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
