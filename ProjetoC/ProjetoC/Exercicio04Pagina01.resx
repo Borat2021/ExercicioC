@@ -58,37 +58,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>1. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 100.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
-}</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>2. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 5.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
-}
-</value>
+    <value>5. Crie um programa que tenha uma variável double valorDaNotaFiscal e, de acordo com esse
+valor, o imposto deve ser calculado. As regras de cálculo são:
+Se o valor for menor ou igual a 999, o imposto deve ser de 2%
+Se o valor estiver entre 1000 e 2999, o imposto deve ser de 2.5%
+Se o valor estiver entre 3000 e 6999, o imposto deve ser de 2.8%
+Se for maior ou igual a 7000, o imposto deve ser de 3%</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Uma pessoa só pode votar em eleições brasileiras se ela for maior que 16 anos e for cidadã
-brasileira. Crie um programa com duas variáveis, int idade, bool brasileira , e faça com que
-o programa diga se a pessoa está apta a votar ou não, de acordo com os dados nas variáveis</value>
+    <value>6. (Desafio)Dado o seguinte código:
+int valor = 15;
+string mensagem = "";
+if(valor &gt; 10)
+{
+mensagem = "Maior que dez";
+}
+else
+{
+mensagem = "Menor que dez;
+}
+MessageBox.Show(mensagem);
+Existe uma forma de fazer o if desse código uma linha só, sem usar a palavra if e else. Pesquise
+sobre isso e tente fazer.</value>
   </data>
 </root>

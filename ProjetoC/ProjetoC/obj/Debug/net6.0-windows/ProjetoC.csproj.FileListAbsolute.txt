@@ -22,3 +22,9 @@ C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\Proje
 C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.PlacarFinal.resources
 C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio03.resources
 C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio04.resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio04Pagina01.resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC..resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio05.resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio05Pagina01.resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio06.resources
+C:\Users\Borat\Desktop\projetoC\projetoC\ProjetoC\obj\Debug\net6.0-windows\ProjetoC.Exercicio06Pagina01.resources

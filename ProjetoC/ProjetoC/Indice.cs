@@ -38,8 +38,28 @@ namespace ProjetoC
         {
             Exercicio04 NovaJanela = new Exercicio04();
             NovaJanela.Show();
-            //exercicio04.Visible = false;
+            exercicio04.Visible = false;
 
         }
+
+        private void exercicio05_Click(object sender, EventArgs e)
+        {
+            Exercicio05 NovaJanela = new Exercicio05();
+            NovaJanela.Show();
+            exercicio05.Visible = false;
+
+        }
+        private void exercicio06_Click(object sender, EventArgs e)
+        {
+            Exercicio06 NovaJanela = new Exercicio06();
+            NovaJanela.Show();
+            //exercicio06.Visible = false;
+        }
+        private void exercicio07_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

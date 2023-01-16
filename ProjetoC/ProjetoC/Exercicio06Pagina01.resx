@@ -57,38 +57,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>1. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 100.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
+  <data name="label4.Text" xml:space="preserve">
+    <value>9. Qual a saída do código a seguir?
+Conta mauricio = new Conta();
+mauricio.numero = 1;
+mauricio.titular = "Mauricio";
+mauricio.saldo = 100.0;
+Conta mauricio2 = new Conta();
+mauricio2.numero = 1;
+mauricio2.titular = "Mauricio";
+mauricio2.saldo = 100.0;
+if (mauricio == mauricio2)
 {
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
+MessageBox.Show("As contas são iguais");
 }
 else
 {
-MessageBox.Show("Saldo Insuficiente");
-}</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>2. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 5.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
+MessageBox.Show("As contas são diferentes");
 }
 </value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>10. Qual a saída do código a seguir:
+Conta mauricio = new Conta();
+mauricio.saldo = 2000.0;
+Conta copia = mauricio;
+copia.saldo = 3000.0;
+MessageBox.show("mauricio = " + mauricio.saldo);
+MessageBox.show("copia = " + copia.saldo);
+</value>
+  </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Uma pessoa só pode votar em eleições brasileiras se ela for maior que 16 anos e for cidadã
-brasileira. Crie um programa com duas variáveis, int idade, bool brasileira , e faça com que
-o programa diga se a pessoa está apta a votar ou não, de acordo com os dados nas variáveis</value>
+    <value>12. (Opcional) Vamos adicionar uma validação no método Saca da Conta . Modifique o método
+Saca para que ele não realize o saque caso o saldo atual da conta seja menor do que o valor
+recebido como argumento.</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>13. (Opcional) Modifique o método Saca com validação para que ele devolva o valor true caso o
+saque tenha sido realizado com sucesso e false caso contrário. Depois modifique o código do
+botão de teste da conta para que ele utilize o valor devolvido pelo método Saca para mostrar uma
+mensagem para o usuário. Caso o saque seja bem sucedido, queremos mostrar a mensagem "Saque
+realizado com sucesso", se não, mostraremos "Saldo insuficiente"</value>
   </data>
 </root>

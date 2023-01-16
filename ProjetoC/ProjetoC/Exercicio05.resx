@@ -57,38 +57,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>1. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 100.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
+  <data name="label8.Text" xml:space="preserve">
+    <value>6. (Opcional) Faça um programa em C# que imprima os fatoriais de 1 a 10.
+O fatorial de um número n é n n-1 n-2 ... até n = 1.
+O fatorial de 0 é 1
+O fatorial de 1 é (0!) * 1 = 1
+O fatorial de 2 é (1!) * 2 = 2
+O fatorial de 3 é (2!) * 3 = 6
+O fatorial de 4 é (3!) * 4 = 24
+Faça um for que inicie uma variável n (número) como 1 e fatorial (resultado) como 1 e varia n de 1
+até 10:
+int fatorial = 1;
+for (int n = 1; n &lt;= 10; n++)
 {
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
-}</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>2. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 5.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
 }
 </value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>4. Uma pessoa só pode votar em eleições brasileiras se ela for maior que 16 anos e for cidadã
-brasileira. Crie um programa com duas variáveis, int idade, bool brasileira , e faça com que
-o programa diga se a pessoa está apta a votar ou não, de acordo com os dados nas variáveis</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>7. (Opcional) Faça um programa em C# que imprima os primeiros números da série de Fibonacci até
+passar de 100. A série de Fibonacci é a seguinte: 0, 1, 1, 2, 3, 5, 8, 13, 21 etc... Para calculá-la, o
+primeiro elemento vale 0, o segundo vale 1, daí por diante, o n-ésimo elemento vale o (n-1)-ésimo
+elemento somado ao (n-2)-ésimo elemento (ex: 8 = 5 + 3).</value>
   </data>
 </root>

@@ -141,10 +141,6 @@ namespace ProjetoC
             label27.Visible = true;
             label28.Visible = true;
             label29.Visible = true;
-
-            //int a = 1, b = -5, c = 6;
-            //double delta = 3.5, a1 = 1.5, a2 = 2.3;
-
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -10,6 +10,21 @@
     <Compile Update="Exercicio04.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Exercicio04Pagina01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exercicio05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exercicio05Pagina01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exercicio06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exercicio06Pagina01.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

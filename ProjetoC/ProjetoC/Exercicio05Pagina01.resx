@@ -57,38 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>1. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 100.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
-}</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>2. Qual é a mensagem e o valor da variável saldo após a execução do seguinte código?
-double saldo = 5.0;
-double valorSaque = 10.0;
-if (saldo &gt;= valorSaque)
-{
-saldo -= valorSaque;
-MessageBox.Show("Saque realizado com sucesso");
-}
-else
-{
-MessageBox.Show("Saldo Insuficiente");
-}
-</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>4. Uma pessoa só pode votar em eleições brasileiras se ela for maior que 16 anos e for cidadã
-brasileira. Crie um programa com duas variáveis, int idade, bool brasileira , e faça com que
-o programa diga se a pessoa está apta a votar ou não, de acordo com os dados nas variáveis</value>
-  </data>
 </root>
