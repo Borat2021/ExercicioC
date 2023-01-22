@@ -54,9 +54,6 @@
             this.Exc0603B2 = new System.Windows.Forms.Label();
             this.Exc0603C2 = new System.Windows.Forms.Label();
             this.Exc0603D2 = new System.Windows.Forms.Label();
-            this.btnEntrarNaConta = new System.Windows.Forms.Button();
-            this.btnSacar = new System.Windows.Forms.Button();
-            this.btnDepositar = new System.Windows.Forms.Button();
             this.btnTransferir = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -69,6 +66,16 @@
             this.Exc0608C2 = new System.Windows.Forms.Label();
             this.Exc0608D2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.textoTitular = new System.Windows.Forms.TextBox();
+            this.textoSaldo = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textoValor = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textoNumero = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnSacar = new System.Windows.Forms.Button();
+            this.btnDepositar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label7
@@ -333,43 +340,10 @@
             this.Exc0603D2.TabIndex = 4;
             this.Exc0603D2.Text = "D ( X )Conta.saldo += 200;";
             // 
-            // btnEntrarNaConta
-            // 
-            this.btnEntrarNaConta.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnEntrarNaConta.Location = new System.Drawing.Point(14, 421);
-            this.btnEntrarNaConta.Name = "btnEntrarNaConta";
-            this.btnEntrarNaConta.Size = new System.Drawing.Size(130, 61);
-            this.btnEntrarNaConta.TabIndex = 5;
-            this.btnEntrarNaConta.Text = "ENTRAR NA CONTA";
-            this.btnEntrarNaConta.UseVisualStyleBackColor = true;
-            this.btnEntrarNaConta.Click += new System.EventHandler(this.btnEntrarNaConta_Click);
-            // 
-            // btnSacar
-            // 
-            this.btnSacar.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnSacar.Location = new System.Drawing.Point(285, 434);
-            this.btnSacar.Name = "btnSacar";
-            this.btnSacar.Size = new System.Drawing.Size(90, 34);
-            this.btnSacar.TabIndex = 6;
-            this.btnSacar.Text = "SACAR";
-            this.btnSacar.UseVisualStyleBackColor = true;
-            this.btnSacar.Click += new System.EventHandler(this.btnSacar_Click);
-            // 
-            // btnDepositar
-            // 
-            this.btnDepositar.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnDepositar.Location = new System.Drawing.Point(150, 434);
-            this.btnDepositar.Name = "btnDepositar";
-            this.btnDepositar.Size = new System.Drawing.Size(125, 34);
-            this.btnDepositar.TabIndex = 7;
-            this.btnDepositar.Text = "DEPOSITAR";
-            this.btnDepositar.UseVisualStyleBackColor = true;
-            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
-            // 
             // btnTransferir
             // 
             this.btnTransferir.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.btnTransferir.Location = new System.Drawing.Point(374, 665);
+            this.btnTransferir.Location = new System.Drawing.Point(374, 736);
             this.btnTransferir.Name = "btnTransferir";
             this.btnTransferir.Size = new System.Drawing.Size(98, 37);
             this.btnTransferir.TabIndex = 8;
@@ -393,7 +367,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(13, 505);
+            this.label4.Location = new System.Drawing.Point(13, 567);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(334, 153);
             this.label4.TabIndex = 4;
@@ -403,7 +377,7 @@
             // 
             this.Exc0608A1.AutoSize = true;
             this.Exc0608A1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608A1.Location = new System.Drawing.Point(14, 674);
+            this.Exc0608A1.Location = new System.Drawing.Point(14, 736);
             this.Exc0608A1.Name = "Exc0608A1";
             this.Exc0608A1.Size = new System.Drawing.Size(345, 21);
             this.Exc0608A1.TabIndex = 4;
@@ -414,7 +388,7 @@
             // 
             this.Exc0608B1.AutoSize = true;
             this.Exc0608B1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608B1.Location = new System.Drawing.Point(15, 695);
+            this.Exc0608B1.Location = new System.Drawing.Point(15, 757);
             this.Exc0608B1.Name = "Exc0608B1";
             this.Exc0608B1.Size = new System.Drawing.Size(344, 21);
             this.Exc0608B1.TabIndex = 4;
@@ -425,7 +399,7 @@
             // 
             this.Exc0608C1.AutoSize = true;
             this.Exc0608C1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608C1.Location = new System.Drawing.Point(14, 716);
+            this.Exc0608C1.Location = new System.Drawing.Point(14, 778);
             this.Exc0608C1.Name = "Exc0608C1";
             this.Exc0608C1.Size = new System.Drawing.Size(344, 21);
             this.Exc0608C1.TabIndex = 4;
@@ -436,7 +410,7 @@
             // 
             this.Exc0608D1.AutoSize = true;
             this.Exc0608D1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608D1.Location = new System.Drawing.Point(14, 737);
+            this.Exc0608D1.Location = new System.Drawing.Point(14, 799);
             this.Exc0608D1.Name = "Exc0608D1";
             this.Exc0608D1.Size = new System.Drawing.Size(346, 21);
             this.Exc0608D1.TabIndex = 4;
@@ -447,7 +421,7 @@
             // 
             this.Exc0608A2.AutoSize = true;
             this.Exc0608A2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608A2.Location = new System.Drawing.Point(13, 674);
+            this.Exc0608A2.Location = new System.Drawing.Point(13, 736);
             this.Exc0608A2.Name = "Exc0608A2";
             this.Exc0608A2.Size = new System.Drawing.Size(355, 21);
             this.Exc0608A2.TabIndex = 4;
@@ -457,7 +431,7 @@
             // 
             this.Exc0608B2.AutoSize = true;
             this.Exc0608B2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608B2.Location = new System.Drawing.Point(14, 695);
+            this.Exc0608B2.Location = new System.Drawing.Point(14, 757);
             this.Exc0608B2.Name = "Exc0608B2";
             this.Exc0608B2.Size = new System.Drawing.Size(354, 21);
             this.Exc0608B2.TabIndex = 4;
@@ -467,7 +441,7 @@
             // 
             this.Exc0608C2.AutoSize = true;
             this.Exc0608C2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608C2.Location = new System.Drawing.Point(14, 716);
+            this.Exc0608C2.Location = new System.Drawing.Point(14, 778);
             this.Exc0608C2.Name = "Exc0608C2";
             this.Exc0608C2.Size = new System.Drawing.Size(354, 21);
             this.Exc0608C2.TabIndex = 4;
@@ -477,7 +451,7 @@
             // 
             this.Exc0608D2.AutoSize = true;
             this.Exc0608D2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Exc0608D2.Location = new System.Drawing.Point(13, 737);
+            this.Exc0608D2.Location = new System.Drawing.Point(13, 799);
             this.Exc0608D2.Name = "Exc0608D2";
             this.Exc0608D2.Size = new System.Drawing.Size(356, 21);
             this.Exc0608D2.TabIndex = 4;
@@ -494,16 +468,124 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // textoTitular
+            // 
+            this.textoTitular.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.textoTitular.Location = new System.Drawing.Point(216, 455);
+            this.textoTitular.Name = "textoTitular";
+            this.textoTitular.PlaceholderText = "TITULAR CONTA";
+            this.textoTitular.Size = new System.Drawing.Size(220, 29);
+            this.textoTitular.TabIndex = 10;
+            // 
+            // textoSaldo
+            // 
+            this.textoSaldo.AutoSize = true;
+            this.textoSaldo.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.textoSaldo.Location = new System.Drawing.Point(534, 455);
+            this.textoSaldo.Name = "textoSaldo";
+            this.textoSaldo.Size = new System.Drawing.Size(82, 30);
+            this.textoSaldo.TabIndex = 13;
+            this.textoSaldo.Text = "SALDO";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(38, 432);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(153, 17);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "VALOR DA TRANSAÇÃO";
+            // 
+            // textoValor
+            // 
+            this.textoValor.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.textoValor.Location = new System.Drawing.Point(15, 452);
+            this.textoValor.Name = "textoValor";
+            this.textoValor.PlaceholderText = "Valor da transação";
+            this.textoValor.Size = new System.Drawing.Size(195, 33);
+            this.textoValor.TabIndex = 10;
+            this.textoValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textoValor_KeyPress);
+            this.textoValor.MouseEnter += new System.EventHandler(this.textoValor_MouseEnter);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(251, 432);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(129, 17);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "TITULAR DA CONTA";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(450, 432);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 17);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Nº CONTA";
+            // 
+            // textoNumero
+            // 
+            this.textoNumero.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.textoNumero.Location = new System.Drawing.Point(442, 455);
+            this.textoNumero.Name = "textoNumero";
+            this.textoNumero.PlaceholderText = "Nº CONTA";
+            this.textoNumero.Size = new System.Drawing.Size(86, 29);
+            this.textoNumero.TabIndex = 10;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(534, 432);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(128, 17);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "SALDO DISPONIVEL";
+            // 
+            // btnSacar
+            // 
+            this.btnSacar.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnSacar.Location = new System.Drawing.Point(132, 491);
+            this.btnSacar.Name = "btnSacar";
+            this.btnSacar.Size = new System.Drawing.Size(88, 34);
+            this.btnSacar.TabIndex = 12;
+            this.btnSacar.Text = "SACAR";
+            this.btnSacar.UseVisualStyleBackColor = true;
+            this.btnSacar.Click += new System.EventHandler(this.btnSacar_Click);
+            // 
+            // btnDepositar
+            // 
+            this.btnDepositar.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.btnDepositar.Location = new System.Drawing.Point(2, 491);
+            this.btnDepositar.Name = "btnDepositar";
+            this.btnDepositar.Size = new System.Drawing.Size(124, 34);
+            this.btnDepositar.TabIndex = 7;
+            this.btnDepositar.Text = "DEPOSITAR";
+            this.btnDepositar.UseVisualStyleBackColor = true;
+            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
+            // 
             // Exercicio06
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(687, 837);
+            this.Controls.Add(this.textoSaldo);
+            this.Controls.Add(this.btnSacar);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textoNumero);
+            this.Controls.Add(this.textoTitular);
+            this.Controls.Add(this.textoValor);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTransferir);
             this.Controls.Add(this.btnDepositar);
-            this.Controls.Add(this.btnSacar);
-            this.Controls.Add(this.btnEntrarNaConta);
             this.Controls.Add(this.Exc0602C2);
             this.Controls.Add(this.Exc0602B2);
             this.Controls.Add(this.Exc0602C1);
@@ -542,6 +624,7 @@
             this.Name = "Exercicio06";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exercicio06";
+            this.Load += new System.EventHandler(this.Exercicio06_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -574,9 +657,6 @@
         private Label Exc0603B2;
         private Label Exc0603C2;
         private Label Exc0603D2;
-        private Button btnEntrarNaConta;
-        private Button btnSacar;
-        private Button btnDepositar;
         private Button btnTransferir;
         private Label label3;
         private Label label4;
@@ -589,5 +669,15 @@
         private Label Exc0608C2;
         private Label Exc0608D2;
         private Button button1;
+        private TextBox textoTitular;
+        private Label textoSaldo;
+        private Label label9;
+        private TextBox textoValor;
+        private Label label6;
+        private Label label5;
+        private TextBox textoNumero;
+        private Label label8;
+        private Button btnSacar;
+        private Button btnDepositar;
     }
 }

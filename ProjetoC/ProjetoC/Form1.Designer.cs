@@ -119,7 +119,6 @@
             this.txtNome.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtNome.Size = new System.Drawing.Size(362, 28);
             this.txtNome.TabIndex = 1;
-            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             this.txtNome.Enter += new System.EventHandler(this.txtNome_Enter);
             this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             this.txtNome.Leave += new System.EventHandler(this.txtNome_Leave);

@@ -1,0 +1,11 @@
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.csproj.AssemblyReference.cache
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.csproj.SuggestedBindingRedirects.cache
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.Form1.resources
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.Properties.Resources.resources
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.csproj.GenerateResource.cache
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.csproj.CoreCompileInputs.cache
+C:\Users\Borat\Desktop\projetoC\teste\teste\bin\Debug\teste.exe.config
+C:\Users\Borat\Desktop\projetoC\teste\teste\bin\Debug\teste.exe
+C:\Users\Borat\Desktop\projetoC\teste\teste\bin\Debug\teste.pdb
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.exe
+C:\Users\Borat\Desktop\projetoC\teste\teste\obj\Debug\teste.pdb

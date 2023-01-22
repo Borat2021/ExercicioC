@@ -333,6 +333,7 @@
             this.label17.Size = new System.Drawing.Size(75, 20);
             this.label17.TabIndex = 13;
             this.label17.Text = "C - ( X ) 3";
+  
             // 
             // label18
             // 

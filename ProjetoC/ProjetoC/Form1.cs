@@ -23,18 +23,19 @@ namespace ProjetoC
                     /*As informações aqui se estiver iguais irá para a proxima tela
                     Chamando a variavel (nova) onde a variavel (nova) recebe (Indice) declarada no METODO na linha 49 */
                     this.Close();
-                    nova = new Thread(start:abrirJanela);
+                    nova = new Thread(start: abrirJanela);
                     nova.SetApartmentState(ApartmentState.STA);
                     nova.Start();
-                   }
+                }
+                //Caso não
                 else
-                {
+                {   //Ira aparecer a mensagem "VOCÊ ERROU O NOME OU A SENHA TENTE NOVAMENTE"
                     MessageBox.Show("VOCÊ ERROU O NOME OU A SENHA TENTE NOVAMENTE", "DESCULPE!",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    //Caso o Nome e a Senha estiverm erradas as palavras digitada dento do TextBox irmao apagar 
+                    //Caso o Nome ou a senha estiver erradas as palavra digitada dentro do txtNome e txtSenha irão apagar 
                     txtNome.Text = "";
                     txtSenha.Text = "";
-                    // O curso ira para o TxtBox Nome
+                    // O curso ira para o txtNome
                     txtNome.Focus();
                 }
 
@@ -47,7 +48,7 @@ namespace ProjetoC
         }
 
         private static void abrirJanela(object obj)
-        {
+        {   //Iniciar um metodo para chamar os proximos formularios 
             Application.Run(new Indice());
         }
 
@@ -90,10 +91,6 @@ namespace ProjetoC
                 //O Foco retorna para o BoxNome
                 txtNome.Focus();
             }
-        }
-
-        private void txtNome_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }

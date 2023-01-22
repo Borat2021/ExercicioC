@@ -1,0 +1,11 @@
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\bin\Debug\Banco.exe.config
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\bin\Debug\Banco.exe
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\bin\Debug\Banco.pdb
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.csproj.SuggestedBindingRedirects.cache
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.Form1.resources
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.Properties.Resources.resources
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.csproj.GenerateResource.cache
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.exe
+C:\Users\Borat\Desktop\projetoC\Banco\Banco\obj\Debug\Banco.pdb
